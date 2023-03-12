@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerx_technical_challenge=self.webpackChunkerx_technical_challenge||[]).push([[922],{922:function(e,n,r){r.r(n),r.d(n,{default:function(){return t}});var c=r(184);function t(){return(0,c.jsxs)("div",{children:[(0,c.jsx)("h2",{children:"Error 404: Page Not Found"}),(0,c.jsx)("p",{children:"\ud83d\ude2eSorry we couldn't find that page \ud83d\ude2e"})]})}}}]);
+//# sourceMappingURL=922.e2791bbc.chunk.js.map
