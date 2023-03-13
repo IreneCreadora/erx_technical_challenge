@@ -3,7 +3,7 @@ import { Chart } from 'components/Chart/Chart';
 import { dummySignal } from 'lib/data/measurementData';
 
 export const FirstWidget = () => {
-  const [userReady, setUserReady] = useState(false);
+  const [userReady, setUserReady] = useState(true);
 
   function handleClick() {
     setUserReady(true);
