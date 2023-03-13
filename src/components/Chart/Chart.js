@@ -19,11 +19,10 @@ ChartJS.register(
   Tooltip
 );
 
-export const Chart = ({ userData = [] }) => {
+export const Chart = ({ userData }) => {
   const [signal, setSignal] = useState([]);
   const [label, setLabel] = useState([]);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     function getSignal() {
       const data = userData;
