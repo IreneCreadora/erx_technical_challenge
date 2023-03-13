@@ -31,6 +31,7 @@ export const Chart = ({ userData = [] }) => {
       setLabel(data.map((elem, index) => index));
     }
     getSignal();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const data = {
