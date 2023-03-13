@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkerx_technical_challenge=self.webpackChunkerx_technical_challenge||[]).push([[385],{385:function(e,n,c){c.r(n),c.d(n,{default:function(){return l}});var a=c(184);function l(){return(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("main",{className:"px-2 py-4",children:(0,a.jsx)("div",{className:"container mx-auto px-4",children:(0,a.jsx)("h1",{className:"text-2xl mb-5",children:"Third"})})})})}}}]);
-//# sourceMappingURL=385.3a938007.chunk.js.map
