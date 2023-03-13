@@ -5,7 +5,7 @@ import { Chart } from 'components/Chart/Chart';
 import { BloodPressure, dummySignal } from 'lib/data/measurementData';
 
 export const ThirdWidget = () => {
-  const [userReady, setUserReady] = useState(true);
+  const [userReady, setUserReady] = useState(false);
   const [diastolic, setDiastolic] = useState(0);
   const [systolic, setSystolic] = useState(0);
 
