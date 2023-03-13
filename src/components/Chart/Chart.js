@@ -23,9 +23,9 @@ export const Chart = ({ userData = [] }) => {
   const [signal, setSignal] = useState([]);
   const [label, setLabel] = useState([]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     function getSignal() {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
       const data = userData;
       setSignal(data.map(item => item));
       setLabel(data.map((elem, index) => index));
