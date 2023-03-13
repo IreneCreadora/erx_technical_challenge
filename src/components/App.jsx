@@ -10,7 +10,7 @@ const NotFoundPage = lazy(() => import('../pages/NotFound'));
 const App = () => {
   useEffect(() => {
     // 👇 add class to body element
-    document.body.classList = 'bg-white dark:bg-slate-700 dark:text-white';
+    document.body.classList = 'bg-teal-800 text-white';
   }, []);
 
   return (
