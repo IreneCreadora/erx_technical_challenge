@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/erx_technical_challenge/static/css/main.8a9f56f5.css",
-    "main.js": "/erx_technical_challenge/static/js/main.be79076b.js",
-    "static/js/151.4578dee0.chunk.js": "/erx_technical_challenge/static/js/151.4578dee0.chunk.js",
+    "main.js": "/erx_technical_challenge/static/js/main.4efb609f.js",
+    "static/js/151.fc1757f2.chunk.js": "/erx_technical_challenge/static/js/151.fc1757f2.chunk.js",
     "static/js/666.66823de1.chunk.js": "/erx_technical_challenge/static/js/666.66823de1.chunk.js",
-    "static/js/721.4ced0fe0.chunk.js": "/erx_technical_challenge/static/js/721.4ced0fe0.chunk.js",
+    "static/js/721.cb4f3d0c.chunk.js": "/erx_technical_challenge/static/js/721.cb4f3d0c.chunk.js",
     "static/js/922.e2791bbc.chunk.js": "/erx_technical_challenge/static/js/922.e2791bbc.chunk.js",
     "static/js/77.3e37792c.chunk.js": "/erx_technical_challenge/static/js/77.3e37792c.chunk.js",
     "static/js/320.6e899f6f.chunk.js": "/erx_technical_challenge/static/js/320.6e899f6f.chunk.js",
-    "static/js/824.51468a74.chunk.js": "/erx_technical_challenge/static/js/824.51468a74.chunk.js",
+    "static/js/824.dba19149.chunk.js": "/erx_technical_challenge/static/js/824.dba19149.chunk.js",
     "index.html": "/erx_technical_challenge/index.html",
     "main.8a9f56f5.css.map": "/erx_technical_challenge/static/css/main.8a9f56f5.css.map",
-    "main.be79076b.js.map": "/erx_technical_challenge/static/js/main.be79076b.js.map",
-    "151.4578dee0.chunk.js.map": "/erx_technical_challenge/static/js/151.4578dee0.chunk.js.map",
+    "main.4efb609f.js.map": "/erx_technical_challenge/static/js/main.4efb609f.js.map",
+    "151.fc1757f2.chunk.js.map": "/erx_technical_challenge/static/js/151.fc1757f2.chunk.js.map",
     "666.66823de1.chunk.js.map": "/erx_technical_challenge/static/js/666.66823de1.chunk.js.map",
-    "721.4ced0fe0.chunk.js.map": "/erx_technical_challenge/static/js/721.4ced0fe0.chunk.js.map",
+    "721.cb4f3d0c.chunk.js.map": "/erx_technical_challenge/static/js/721.cb4f3d0c.chunk.js.map",
     "922.e2791bbc.chunk.js.map": "/erx_technical_challenge/static/js/922.e2791bbc.chunk.js.map",
     "77.3e37792c.chunk.js.map": "/erx_technical_challenge/static/js/77.3e37792c.chunk.js.map",
     "320.6e899f6f.chunk.js.map": "/erx_technical_challenge/static/js/320.6e899f6f.chunk.js.map",
-    "824.51468a74.chunk.js.map": "/erx_technical_challenge/static/js/824.51468a74.chunk.js.map"
+    "824.dba19149.chunk.js.map": "/erx_technical_challenge/static/js/824.dba19149.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a9f56f5.css",
-    "static/js/main.be79076b.js"
+    "static/js/main.4efb609f.js"
   ]
 }
