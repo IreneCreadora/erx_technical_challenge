@@ -19,7 +19,7 @@ ChartJS.register(
   Tooltip
 );
 
-export const Chart = ({ userData }) => {
+export const Chart = ({ userData = [] }) => {
   const [signal, setSignal] = useState([]);
   const [label, setLabel] = useState([]);
 
