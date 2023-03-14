@@ -82,7 +82,11 @@ export const SecondWidget = () => {
       )}
 
       <div className="w-full h-40 flex justify-center items-center mx-auto text-3xl text-indigo-900">
-        {rhythm.length > 1 ? <></> : <CircleTimer isReady={userReady} />}
+        {rhythm.length > 1 ? (
+          <></>
+        ) : (
+          <CircleTimer isReady={userReady} circle={180} />
+        )}
         {rhythm.length > 1 && (
           <div className=" p-6  bg-cyan-500/20 border-2  border-cyan-300 rounded-md grid place-items-center text-xl">
             <p>
