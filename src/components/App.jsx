@@ -9,7 +9,6 @@ const NotFoundPage = lazy(() => import('../pages/NotFound'));
 
 const App = () => {
   useEffect(() => {
-    // 👇 add class to body element
     document.body.classList = 'bg-teal-800 text-white';
   }, []);
 
