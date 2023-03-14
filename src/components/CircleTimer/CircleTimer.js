@@ -4,7 +4,7 @@ export const CircleTimer = ({ isReady }) => {
   return (
     <CountdownCircleTimer
       isPlaying={isReady}
-      duration={30}
+      duration={15}
       size={180}
       colors={[
         '#6b21a8',
@@ -14,10 +14,11 @@ export const CircleTimer = ({ isReady }) => {
         '#ea580c',
         '#b91c1c',
       ]}
-      colorsTime={[30, 23, 18, 10, 2, 0]}
+      colorsTime={[15, 12, 9, 5, 3, 0]}
       onComplete={() => {
         // showResalt();
         console.log('timer stop');
+        return [false, 1000];
       }}
     >
       {({ remainingTime }) => remainingTime}
