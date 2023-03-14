@@ -3,6 +3,7 @@ import { FiCornerUpLeft, FiActivity } from 'react-icons/fi';
 import { CountNum } from 'components/CountNum/CountNum';
 import { CircleTimer } from 'components/CircleTimer/CircleTimer';
 import { Chart } from 'components/Chart/Chart';
+
 import {
   BloodPressure,
   dummySignal,
@@ -49,6 +50,7 @@ export const SecondWidget = () => {
           Welcome, to start testing, please click on the button below
         </p>
       )}
+
       {bpm > 1 ? (
         <div className="flex-wrap w-full">
           <div className="w-1/2 mx-auto grid place-items-center  text-cyan-900  m-1 border-2 border-cyan-500 rounded">
@@ -101,9 +103,11 @@ export const SecondWidget = () => {
           Track your Heart Rate
         </button>
       )}
+
       {showMessage && (
         <p className=" text-center text-lg text-gray-700">please wait</p>
       )}
+
       {userReady === true ? <Chart userData={dummySignal} /> : <></>}
     </div>
   );
