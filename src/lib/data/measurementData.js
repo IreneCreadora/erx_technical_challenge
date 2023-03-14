@@ -1,10 +1,4 @@
-// int get dummyHeartRate {
-//   return 78;
-// }
-
-// int get dummyRespiratoryRate {
-//   return 17;
-// }
+export const dummyHeartRate = { result: 68 };
 
 export const BloodPressure = { diastolic: 78, systolic: 116 };
 
@@ -736,8 +730,9 @@ export const respDummySignal = [
   124, 125, 125, 126, 126, 127, 128,
 ];
 
-export function Rhythm(value) {
+export function rhythmTitle(value) {
   let result;
+  console.log(value);
   if (value < 55) {
     result = 'Bad';
   } else if (value > 59) {
