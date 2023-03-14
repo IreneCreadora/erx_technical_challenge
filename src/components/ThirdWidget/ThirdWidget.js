@@ -44,8 +44,12 @@ export const ThirdWidget = () => {
           <BiBookHeart size="30px" color="#5b21b6" />
         </div>
       )}
-      <div className="w-52 h-52 flex justify-center items-center mx-auto border rounded-full text-3xl text-indigo-900 bg-violet-300">
-        {rhythm.length > 1 ? <></> : <CircleTimer isReady={userReady} />}
+      <div className="w-56 h-56 flex justify-center items-center mx-auto border rounded-full text-3xl text-indigo-900 bg-violet-300">
+        {rhythm.length > 1 ? (
+          <></>
+        ) : (
+          <CircleTimer isReady={userReady} circle={200} />
+        )}
         {rhythm.length > 1 && (
           <div className="grid place-items-center text-2xl">
             <p>Your result is:</p>
@@ -59,7 +63,7 @@ export const ThirdWidget = () => {
         <button
           type="button"
           onClick={handleClick}
-          className="w-36 h-12 my-12  bg-teal-400 text-indigo-900 text-lg border rounded-full"
+          className="w-36 h-12 my-12  bg-teal-400 text-indigo-900 text-lg border-2 border-violet-300 rounded-full"
         >
           click for start
         </button>
