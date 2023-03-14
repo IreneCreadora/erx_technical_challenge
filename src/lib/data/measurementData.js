@@ -732,7 +732,7 @@ export const respDummySignal = [
 
 export function rhythmTitle(value) {
   let result;
-  console.log(value);
+  // console.log(value);
   if (value < 55) {
     result = 'Bad';
   } else if (value > 59) {
