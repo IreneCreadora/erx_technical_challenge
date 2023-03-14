@@ -59,7 +59,7 @@ export const ThirdWidget = () => {
         <button
           type="button"
           onClick={handleClick}
-          className="w-32 h-10 bg-teal-400 text-indigo-900 text-lg border rounded-full"
+          className="w-36 h-12 my-12  bg-teal-400 text-indigo-900 text-lg border rounded-full"
         >
           click for start
         </button>

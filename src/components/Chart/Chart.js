@@ -29,7 +29,9 @@ export const Chart = ({ userData }) => {
       setSignal(data.map(item => item));
       setLabel(data.map((elem, index) => index));
     }
-    getSignal();
+    setTimeout(() => {
+      getSignal();
+    }, 15000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
