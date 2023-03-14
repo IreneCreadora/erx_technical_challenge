@@ -1,11 +1,11 @@
 import { CountdownCircleTimer } from 'react-countdown-circle-timer';
 
-export const CircleTimer = ({ isReady }) => {
+export const CircleTimer = ({ isReady, circle }) => {
   return (
     <CountdownCircleTimer
       isPlaying={isReady}
       duration={15}
-      size={180}
+      size={circle}
       colors={[
         '#6b21a8',
         '#004777',
@@ -16,8 +16,7 @@ export const CircleTimer = ({ isReady }) => {
       ]}
       colorsTime={[15, 12, 9, 5, 3, 0]}
       onComplete={() => {
-        // showResalt();
-        console.log('timer stop');
+        // console.log('timer stop');
         return [false, 1000];
       }}
     >
